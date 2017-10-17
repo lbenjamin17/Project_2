@@ -1,0 +1,145 @@
+/*  CSS Reset
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p{
+font-family: Georgia, serif;
+}
+.center{
+	text-align:center;
+}
+
+/*MENU SECTION*/
+#topnav {
+    background-color: #BF4A4A;
+    overflow: hidden;
+	list-style: none;
+	top:0;
+	width: 100%;
+}
+
+#topnav ul {
+list-style:none;
+}
+
+#topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	
+}
+
+
+#topnav a:hover {
+    background-color: #d89292;
+    color: black;
+}
+
+#topnav .icon {
+    display: none;
+}
+
+
+/*Resume Section*/
+
+#space{
+	text-align: center;
+	background-color: #f3f3f3;
+	
+}
+
+/*Index page css*/
+.col {
+	float:left;
+    width:300px;
+	height:200px;
+}
+
+.col-2 {
+	float:left;
+	left:100px;
+    width:300px;
+	height:200px;
+}
+
+#boxed {
+	border: 1px solid;
+    padding: 8px;
+    background: #cb6e6e;
+	color:white;
+    margin-bottom: 10px;
+	border-top-right-radius: 3em;
+	/*border-top-left-radius: 3em;
+	border-bottom-left-radius:3em; 
+	border-bottom-right-radius:3em;*/
+	width:20%;
+	
+}
+
+/*Footer*/
+footer{
+	margin: 0;
+	padding-top:10px;
+	text-align:center;
+	height:65px;
+	background-color:#BF4A4A;
+	color: white;
+	
+}
+
+/*CSS for responsive functionality*/
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
