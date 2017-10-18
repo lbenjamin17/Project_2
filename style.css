@@ -521,7 +521,10 @@ list-style:none;
 	margin-bottom:15px;
 }
 
-
+.container {
+	margin-left:10px;
+	
+}
 
 /*Index page css*/
 .col {
