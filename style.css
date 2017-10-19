@@ -384,10 +384,6 @@ list-style:none;
 }
 
 
-#topnav li:active{
-	
-	color:bfbfb;
-}
 #topnav a {
     float: left;
     display: block;
@@ -403,6 +399,7 @@ list-style:none;
 #topnav a:hover {
     background-color: #d89292;
     color: black;
+
 }
 
 #topnav .icon {
@@ -497,7 +494,7 @@ list-style:none;
 .col7 {
 	position: relative;
 	display: block;
-	margin: 10px;
+	margin: 20px;
 	width: 500px;
 	height: auto;
 	float:left;
@@ -505,6 +502,17 @@ list-style:none;
 	overflow:hidden;
 }
 
+.col8{
+    position: relative;
+	display: block;
+	margin: 20px;
+	width: 500px;
+	height: auto;
+	float:left;
+	padding:10px;
+	overflow:hidden;	
+	
+}
 
 .symbols  {
 	
@@ -527,7 +535,6 @@ list-style:none;
 	border-bottom-right-radius:3em;*/
 	width:20%;
 }
-
 
 /*Footer*/
 footer{
