@@ -441,6 +441,16 @@ list-style:none;
    	
 }
 
+.col2 {
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+	width: 500px;
+	height: auto;
+	float:left;
+	padding:10px;
+	overflow:hidden;
+}
 
 .symbols  {
 	
@@ -464,6 +474,7 @@ list-style:none;
 	width:20%;
 }
 
+
 /*Footer*/
 footer{
 	position: relative;
@@ -478,9 +489,9 @@ footer{
 	
 }
 
-/*CSS for responsive functionality*/
+/*CSS for responsive functionality
 @media (max-width:600px) {
     .column {
         width: 100%;
     }
-}
+}*/
