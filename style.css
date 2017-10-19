@@ -384,7 +384,7 @@ list-style:none;
 }
 
 
-#topnav ul li:active{
+#topnav li:active{
 	
 	color:bfbfb;
 }
