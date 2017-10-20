@@ -335,7 +335,7 @@ template {
 }
 
 li{
-	list-style:none;
+	list-style: circle;
 	
 
 }
@@ -380,7 +380,7 @@ tr:nth-child(even) {
 
 }
 
-#topnav ul {
+#topnav ul li{
 list-style:none;
 }
 
@@ -413,6 +413,7 @@ list-style:none;
 #space{
 	text-align: center;
 	background-color: #f3f3f3;
+	width: 100%;
 	
 }
 
@@ -526,18 +527,15 @@ list-style:none;
 }
 
 
-
-#boxed {
+/*
+#boxed{
 	border: 1px solid;
-    padding: 0px;
-    background: #cb6e6e;
+    background: #d28080;
 	color:white;
-	/*border-top-right-radius: 3em;
-	border-top-left-radius: 3em;
-	border-bottom-left-radius:3em; 
-	border-bottom-right-radius:3em;*/
+	border-radius: 5px 30px 30px 5px;
 	width:20%;
 }
+*/
 
 /*Footer*/
 footer{
