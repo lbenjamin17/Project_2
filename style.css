@@ -79,6 +79,10 @@ list-style:none;
 	
 }
 
+#containerchild{
+	text-align: center;
+}
+
 /*Index page css*/
 .col {
 	position: relative;
@@ -115,6 +119,7 @@ list-style:none;
 
 .col4 {
 	position: relative;
+	display: block;
 	margin: 20px;
 	width: 500px;
 	height: auto;
