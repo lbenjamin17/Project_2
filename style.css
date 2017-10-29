@@ -23,16 +23,17 @@ td, th {
 
 /*MENU SECTION*/
 #topnav {
+	text-align:center;
     background-color: #BF4A4A;
     overflow: hidden;
 	list-style: none;
-	top:0;
 	width: 100%;
 
 }
 
 #topnav ul li{
-list-style:none;
+	list-style:none;
+	display: inline-block;
 }
 
 
@@ -41,9 +42,9 @@ list-style:none;
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 9px 20px;
+    padding: 5px 20px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
 	
 }
 
@@ -75,7 +76,7 @@ list-style:none;
 }
 
 .container {
-	margin-left:30px;
+	margin-left:10px;
 	
 }
 
